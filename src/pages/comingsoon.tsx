@@ -14,7 +14,10 @@ function comingSoon() {
                     automate and optimize your campaigns.
                 </p>
                 <div className="comingSoon__timer">
-                    <p></p>
+                    <div className="comingSoon__timer-item">
+                      <span>7</span>
+                      <span>Days</span>
+                    </div>
                 </div>
             </div>
         </div>
