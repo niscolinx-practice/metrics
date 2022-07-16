@@ -34,6 +34,10 @@ function comingSoon() {
                 <form>
                   <input type="text" placeholder='First Name..'/>
                   <input type="text" placeholder='Last Name..' />
+
+                  <div>
+                    
+                  </div>
                 </form>
             </div>
         </div>
