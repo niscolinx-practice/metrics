@@ -1,7 +1,7 @@
 .comingSoon {
-    background-color: $color-primary;
+    background: transparent url('/Path 1.svg') 0% 0% no-repeat padding-box;
     grid-column: 1 / -1;
-
+    height: 100vh;
     display: grid;
     justify-content: center;
 }
