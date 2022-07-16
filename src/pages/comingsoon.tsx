@@ -37,7 +37,7 @@ function comingSoon() {
 
                   <div>
                     <input type="text" placeholder='Email your email address...'/>
-                    <button></button>
+                    <button>Join Our waiting List</button>
                   </div>
                 </form>
             </div>
