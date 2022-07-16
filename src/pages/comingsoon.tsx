@@ -31,6 +31,7 @@ function comingSoon() {
                       <span>Second</span>
                     </div>
                 </div>
+                <form></form>
             </div>
         </div>
     )
