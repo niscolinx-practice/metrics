@@ -1,10 +1,12 @@
 .header {
     &__logo {
-        top: -13px;
-        left: 98px;
-        width: 197px;
-        height: 182px;
+        width: 110px;
+        cursor: pointer;
 
+        img{
+            width: 100%;
+            height: 100%;
+        }
     }
 
     &__lists {
