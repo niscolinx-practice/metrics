@@ -1,9 +1,11 @@
 .header {
     display: flex;
+    background-color: rebeccapurple;
 
     &__logo {
         width: 110px;
         cursor: pointer;
+        background-color: white;
 
         img{
             width: 100%;
