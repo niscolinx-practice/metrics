@@ -13,6 +13,8 @@
     }
 
     &__lists {
+        list-style: none;
+        display: flex;
         &--item {
         }
     }
