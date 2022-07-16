@@ -5,12 +5,12 @@
     position: relative;
     grid-template-rows: min-content;
     grid-template-columns:
-        [full-start] 6rem
+        [full-start] 4rem
         [center-start] repeat(
             12,
             [col-start] minmax(min-content, 14rem) [col-end]
         )
-        [center-end] 6rem [full-end];
+        [center-end] 4rem [full-end];
 
 }
 
