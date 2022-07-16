@@ -7,8 +7,15 @@ function comingSoon() {
             <div className='ellipse2'></div>
             <div className='ellipse3'></div>
 
-            <div className='grid'>
+            <div className='comingSoon__content'>
                 <h1>Something awesome is coming soon</h1>
+                <p>
+                    Your all-in-one affiliate marketing tracking software track,
+                    automate and optimize your campaigns.
+                </p>
+                <div className="">
+
+                </div>
             </div>
         </div>
     )
