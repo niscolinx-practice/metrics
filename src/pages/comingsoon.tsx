@@ -3,9 +3,12 @@ import React from 'react'
 function comingSoon() {
     return (
         <div className='comingSoon'>
+          <div className='comingSoon__ellipse'>
+
             <div className='ellipse1'></div>
             <div className='ellipse2'></div>
             <div className='ellipse3'></div>
+          </div>
 
             <div className='comingSoon__content'>
                 <h1>Something awesome is coming soon</h1>
