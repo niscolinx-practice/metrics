@@ -5,10 +5,10 @@ function Header() {
     <div className='header'>
         <img src='logo-white.png' alt=''/>
 
-<ul>
-    <li>Abous Us</li>
-    <li>Blog</li>
-    <li>Contact Us</li>
+<ul className='header__lists'>
+    <li className='header__lists--item'>Abous Us</li>
+    <li className='header__lists--item'>Blog</li>
+    <li className='header__lists--item'>Contact Us</li>
 </ul>
     </div>
   )
