@@ -1,9 +1,9 @@
 import React from 'react'
 
-function comingsoon() {
+function comingSoon() {
   return (
-    <div className='comingsoon'>comingsoon</div>
+    <div className='comingSoon'>comingsoon</div>
   )
 }
 
-export default comingsoon
+export default comingSoon
