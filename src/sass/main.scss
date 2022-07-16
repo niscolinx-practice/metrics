@@ -5,6 +5,8 @@
 
 @import './components/home';
 
-@import './pages/comingSoon.scss'
+@import './pages/comingSoon';
 
-
+body{
+    background-color: red;
+}
