@@ -7,11 +7,11 @@ type LayoutProps = {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
     return (
-        <>
+        <div className='main'>
             <Header />
-            <div className='main'>{children}</div>
+            {children}
             <Footer />
-        </>
+        </div>
     )
 }
 
