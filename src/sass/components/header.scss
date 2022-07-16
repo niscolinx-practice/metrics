@@ -1,6 +1,5 @@
 .header {
     display: flex;
-    background-color: rebeccapurple;
     grid-column: 1 / -1;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +18,10 @@
     &__lists {
         list-style: none;
         display: flex;
+        background-color: red;
         &--item {
+            margin: 0 2rem;
+            background: yellow
         }
     }
 }
