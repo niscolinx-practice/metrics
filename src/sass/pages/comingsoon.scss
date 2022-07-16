@@ -5,10 +5,12 @@
     justify-content: center;
 
     .ellipse {
-        background: white;
+        position: absolute;
         top: 187px;
         left: 259px;
         width: 140px;
         height: 143px;
+        z-index: 2;
+        opacity: 1;
     }
 }
