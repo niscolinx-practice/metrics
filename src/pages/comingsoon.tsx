@@ -18,6 +18,18 @@ function comingSoon() {
                       <span>7</span>
                       <span>Days</span>
                     </div>
+                    <div className="comingSoon__timer-item">
+                      <span>7</span>
+                      <span>Days</span>
+                    </div>
+                    <div className="comingSoon__timer-item">
+                      <span>7</span>
+                      <span>Days</span>
+                    </div>
+                    <div className="comingSoon__timer-item">
+                      <span>7</span>
+                      <span>Days</span>
+                    </div>
                 </div>
             </div>
         </div>
