@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    grid-column: 1 / -1;
+    grid-column: center-start / center-end;
     justify-content: space-between;
     align-items: center;
 
@@ -19,7 +19,8 @@
         list-style: none;
         display: flex;
         &--item {
-            margin: 0 2rem;
+            margin: 0 1.5rem;
+            padding: 1rem 2rem;
 
             &-active {
                 background-color: $color-1;
