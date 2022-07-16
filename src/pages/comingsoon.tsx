@@ -31,7 +31,10 @@ function comingSoon() {
                       <span>Second</span>
                     </div>
                 </div>
-                <form></form>
+                <form>
+                  <input type="text" placeholder='First Name..'/>
+                  <input type="text" placeholder='Last Name..' />
+                </form>
             </div>
         </div>
     )
