@@ -3,12 +3,11 @@ import React from 'react'
 function comingSoon() {
     return (
         <div className='comingSoon'>
-          <div className='comingSoon__ellipse'>
-
-            <div className='ellipse1'></div>
-            <div className='ellipse2'></div>
-            <div className='ellipse3'></div>
-          </div>
+            <div className='comingSoon__ellipse'>
+                <div className='ellipse1'></div>
+                <div className='ellipse2'></div>
+                <div className='ellipse3'></div>
+            </div>
 
             <div className='comingSoon__content'>
                 <h1>Something awesome is coming soon</h1>
@@ -16,32 +15,35 @@ function comingSoon() {
                     Your all-in-one affiliate marketing tracking software track,
                     automate and optimize your campaigns.
                 </p>
-                <div className="comingSoon__timer">
-                    <div className="comingSoon__timer-item">
-                      <span>7</span>
-                      <span>Days</span>
+                <div className='comingSoon__timer'>
+                    <div className='comingSoon__timer-item'>
+                        <span>7</span>
+                        <span>Days</span>
                     </div>
-                    <div className="comingSoon__timer-item">
-                      <span>24</span>
-                      <span>Hours</span>
+                    <div className='comingSoon__timer-item'>
+                        <span>24</span>
+                        <span>Hours</span>
                     </div>
-                    <div className="comingSoon__timer-item">
-                      <span>54</span>
-                      <span>Minutes</span>
+                    <div className='comingSoon__timer-item'>
+                        <span>54</span>
+                        <span>Minutes</span>
                     </div>
-                    <div className="comingSoon__timer-item">
-                      <span>11</span>
-                      <span>Second</span>
+                    <div className='comingSoon__timer-item'>
+                        <span>11</span>
+                        <span>Second</span>
                     </div>
                 </div>
                 <form>
-                  <input type="text" placeholder='First Name..'/>
-                  <input type="text" placeholder='Last Name..' />
+                    <input type='text' placeholder='First Name..' />
+                    <input type='text' placeholder='Last Name..' />
 
-                  <div>
-                    <input type="text" placeholder='Email your email address...'/>
-                    <button type="submit">Join Our waiting List</button>
-                  </div>
+                    <div>
+                        <input
+                            type='text'
+                            placeholder='Email your email address...'
+                        />
+                        <button type='submit'>Join Our waiting List</button>
+                    </div>
                 </form>
             </div>
         </div>
