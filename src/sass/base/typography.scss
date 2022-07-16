@@ -4,7 +4,7 @@
     position: relative;
     grid-template-rows: min-content;
     grid-template-columns:
-        [sidebar-start] 6rem [sidebar-end full-start] minmax(6rem, 1fr)
+        [full-start] minmax(6rem, 1fr)
         [center-start] repeat(
             12,
             [col-start] minmax(min-content, 14rem) [col-end]
