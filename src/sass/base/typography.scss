@@ -1,6 +1,7 @@
 .main {
     display: grid;
     background: $linear-gradient;
+    color: $color-primary;
     position: relative;
     grid-template-rows: min-content;
     grid-template-columns:
