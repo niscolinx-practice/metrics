@@ -13,7 +13,7 @@ function comingSoon() {
                     Your all-in-one affiliate marketing tracking software track,
                     automate and optimize your campaigns.
                 </p>
-                <div className="">
+                <div className="comingSoon__timer">
 
                 </div>
             </div>
