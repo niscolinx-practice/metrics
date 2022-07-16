@@ -3,7 +3,7 @@ import React from 'react'
 function comingSoon() {
     return (
         <div className='comingSoon'>
-            <div className='ellipse1'></div>
+            <div className='ellipse2'></div>
           
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
             aspernatur quas vitae quibusdam, perferendis velit sunt deleniti
