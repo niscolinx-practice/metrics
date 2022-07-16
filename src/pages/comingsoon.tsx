@@ -36,7 +36,8 @@ function comingSoon() {
                   <input type="text" placeholder='Last Name..' />
 
                   <div>
-                    
+                    <input type="text" placeholder='Email your email address...'/>
+                    <button></button>
                   </div>
                 </form>
             </div>
