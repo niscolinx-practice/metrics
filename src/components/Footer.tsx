@@ -7,7 +7,7 @@ import {FaTwitterSquare} from 'react-icons/fa'
 
 function Footer() {
   return (
-    <footer>
+    <footer className='footer'>
       <ul>
         <li>
           <Link href='/'>
@@ -35,6 +35,11 @@ function Footer() {
           </Link>
         </li>
       </ul>
+
+      <div className="footer__contracts">
+        <Link>Terms of services</Link>
+        <Link>Privacy Policy</Link>
+      </div>
     </footer>
   )
 }
