@@ -6,13 +6,6 @@
     box-sizing: inherit;
 }
 
-@font-face {
-    font-family: 'AdobeClean';
-    src: url('/fonts/AdobeCleanRegular.otf') format('otf');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
 
 html,
 body {
@@ -20,7 +13,7 @@ body {
     position: relative;
     line-height: 1.6;
     font-weight: 400;
-    font-family: $font-AdobeClean;
+    font-family: $font-Poppings;
     box-sizing: border-box;
 }
 
