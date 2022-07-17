@@ -102,6 +102,7 @@
         display: grid;
         max-width: 41rem;
         justify-content: center;
+        gap: 2rem;
 
         &--1 {
             display: flex;
@@ -126,6 +127,10 @@
             font-size: 14px;
         }
 
+        &--2 {
+            width: 100%;
+        }
+
         &--input-email {
             padding: 1rem 2rem;
             border-radius: 1rem;
@@ -141,8 +146,6 @@
             color: white;
         }
 
-        &--2 {
-            width: 100%;
-        }
+        
     }
 }
