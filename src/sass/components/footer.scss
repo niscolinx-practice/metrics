@@ -47,7 +47,11 @@
 }
 
 .footer__glassmorphism {
-    background-color: transparent;
+    background: rgb(115 91 114 / 62%);
+    backdrop-filter: blur(2rem);
+    position: relative;
+    z-index: 20;
     padding-top: 10rem;
     margin: 0 10rem;
-    clip-path: circle(100vh at 50% 109vh);}
+    clip-path: circle(100vh at 50% 109vh);
+}
