@@ -6,6 +6,12 @@
     box-sizing: inherit;
 }
 
+@font-face {
+    font-family: 'AdobeClean';
+    src: url('/font/AdobeCleanUXRegular.otf') format('otf'),
+        
+  }  
+
 html,
 body {
     overflow-x: hidden;
