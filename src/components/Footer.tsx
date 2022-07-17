@@ -24,7 +24,7 @@ function Footer() {
                       <AiFillLinkedin />
                   </Link>
               </li>
-              <li className='footer__links--item'>
+              <li className='footer__links--item footer__links--item-custom'>
                   <Link href='/'>
                       <RiInstagramLine />
                   </Link>
