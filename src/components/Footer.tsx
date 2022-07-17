@@ -10,7 +10,29 @@ function Footer() {
     <footer>
       <ul>
         <li>
-          <Link href='/'>Hello</Link>
+          <Link href='/'>
+            <BsYoutube/>
+          </Link>
+        </li>
+        <li>
+          <Link href='/'>
+            <AiFillFacebook/>
+          </Link>
+        </li>
+        <li>
+          <Link href='/'>
+            <BsLinkedin/>
+          </Link>
+        </li>
+        <li>
+          <Link href='/'>
+            <RiInstagramLine/>
+          </Link>
+        </li>
+        <li>
+          <Link href='/'>
+            <FaTwitterSquare/>
+          </Link>
         </li>
       </ul>
     </footer>
