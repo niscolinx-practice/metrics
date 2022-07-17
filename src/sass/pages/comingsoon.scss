@@ -77,9 +77,9 @@
 
         &--timer {
             display: flex;
-            
-            &-item{
 
+            &-item{
+                display: grid;
             }
         }
     }

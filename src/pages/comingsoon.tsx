@@ -18,8 +18,8 @@ function comingSoon() {
                 </p>
                 <div className='comingSoon__content--timer'>
                     <div className='comingSoon__content--timer-item'>
-                        <span>7</span>
-                        <span>Days</span>
+                        <span className='span-1'>7</span>
+                        <span className='span-2'>Days</span>
                     </div>
                     <div className='comingSoon__content--timer-item'>
                         <span>24</span>
