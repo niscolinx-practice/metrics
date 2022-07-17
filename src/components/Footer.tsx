@@ -8,7 +8,7 @@ import {FaTwitterSquare} from 'react-icons/fa'
 function Footer() {
   return (
       <footer className='footer'>
-          <ul>
+          <ul className='footer__links'>
               <li>
                   <Link href='/'>
                       <BsYoutube />
