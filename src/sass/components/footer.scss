@@ -2,4 +2,10 @@
     display: grid;
     justify-content: center;
     grid-column: center-start / center-end;
+
+    &__links{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
 }
