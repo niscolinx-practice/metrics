@@ -1,6 +1,6 @@
 .comingSoon {
     grid-column: 1 / -1;
-    height: 70vh;
+    height: 65vh;
     display: grid;
     justify-content: center;
     position: relative;
@@ -39,8 +39,8 @@
         &--3 {
             border-radius: 100%;
             position: absolute;
-            top: 30rem;
-            left: 20rem;
+            top: 50rem;
+            left: 35rem;
             width: 183px;
             height: 187px;
             background: transparent
