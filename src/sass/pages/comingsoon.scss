@@ -5,58 +5,58 @@
     justify-content: center;
     position: relative;
 
-    &__ellipse{
+    &__ellipse {
         position: absolute;
         z-index: 10;
         height: 100vh;
         left: 0;
         right: 0;
+
+        &--1 {
+            position: absolute;
+            top: 2;
+            right: 2;
+            width: 140px;
+            height: 143px;
+            border-radius: 100%;
+            background: transparent
+                linear-gradient(177deg, #7f1e7b 0%, #19073b 100%) 0% 0%
+                no-repeat padding-box;
+            opacity: 1;
+            background-color: white;
+        }
+
+        &--2 {
+            position: absolute;
+            top: 0;
+            left: 2;
+            width: 104px;
+            height: 107px;
+            border-radius: 100%;
+            background: transparent
+                linear-gradient(177deg, #213f72 0%, #19073b 100%) 0% 0%
+                no-repeat padding-box;
+            opacity: 1;
+            background-color: white;
+        }
+
+        &--3 {
+            border-radius: 100%;
+            position: absolute;
+            top: 3;
+            left: 4;
+            width: 183px;
+            height: 187px;
+            background: transparent
+                linear-gradient(177deg, #7f4129 0%, #1c0c28 100%) 0% 0%
+                no-repeat padding-box;
+            opacity: 1;
+            background-color: white;
+        }
     }
 
-    &__content{
+    &__content {
         position: relative;
         z-index: 500;
-    }
-
-    .ellipse1 {
-        position: absolute;
-        top: 2;
-        right: 2;
-        width: 140px;
-        height: 143px;
-        border-radius: 100%;
-        background: transparent
-            linear-gradient(177deg, #7f1e7b 0%, #19073b 100%) 0% 0% no-repeat
-            padding-box;
-        opacity: 1;
-        background-color: white;
-    }
-
-    .ellipse2 {
-        position: absolute;
-        top: 0;
-        left: 2;
-        width: 104px;
-        height: 107px;
-        border-radius: 100%;
-        background: transparent
-            linear-gradient(177deg, #213f72 0%, #19073b 100%) 0% 0% no-repeat
-            padding-box;
-        opacity: 1;
-        background-color: white;
-    }
-
-    .ellipse3 {
-        border-radius: 100%;
-        position: absolute;
-        top: 3;
-        left: 4;
-        width: 183px;
-        height: 187px;
-        background: transparent
-            linear-gradient(177deg, #7f4129 0%, #1c0c28 100%) 0% 0% no-repeat
-            padding-box;
-        opacity: 1;
-        background-color: white;
     }
 }
