@@ -55,7 +55,7 @@ function comingSoon() {
                     <div className='comingSoon__form--2'>
                         <input
                             type='text'
-                            placeholder='Email your email address...'
+                            placeholder='Enter your email address...'
                             className='comingSoon__form--input-email'
                         />
                         <button type='submit' className='comingSoon__form--btn'>Join Our waiting List</button>
