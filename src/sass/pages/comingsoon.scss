@@ -54,6 +54,7 @@
         z-index: 500;
         display: grid;
         align-content: start;
+        max-width: 49rem;
 
         &--header{
             font-weight: bold;
