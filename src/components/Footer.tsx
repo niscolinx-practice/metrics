@@ -1,8 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import { BsYoutube } from 'react-icons/bs'
-import { AiFillFacebook, AiFillLinkedin } from 'react-icons/ai'
-import {RiInstagramLine} from'react-icons/ri'
+import { AiFillFacebook, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai'
 import {FaTwitterSquare} from 'react-icons/fa'
 
 function Footer() {
@@ -24,9 +23,9 @@ function Footer() {
                       <AiFillLinkedin />
                   </Link>
               </li>
-              <li className='footer__links--item footer__links--item-custom'>
+              <li className='footer__links--item'>
                   <Link href='/'>
-                      <RiInstagramLine />
+                      <AiFillInstagram />
                   </Link>
               </li>
               <li className='footer__links--item'>
