@@ -16,20 +16,20 @@ function comingSoon() {
                 <p className='comingSoon__content--text'>
                     Your all-in-one affiliate marketing tracking software  <span>track</span>, <span>automate</span>  and  <span>optimize</span> your campaigns.
                 </p>
-                <div className='comingSoon__timer'>
-                    <div className='comingSoon__timer-item'>
+                <div className='comingSoon__content--timer'>
+                    <div className='comingSoon__content--timer-item'>
                         <span>7</span>
                         <span>Days</span>
                     </div>
-                    <div className='comingSoon__timer-item'>
+                    <div className='comingSoon__content--timer-item'>
                         <span>24</span>
                         <span>Hours</span>
                     </div>
-                    <div className='comingSoon__timer-item'>
+                    <div className='comingSoon__content--timer-item'>
                         <span>54</span>
                         <span>Minutes</span>
                     </div>
-                    <div className='comingSoon__timer-item'>
+                    <div className='comingSoon__content--timer-item'>
                         <span>11</span>
                         <span>Second</span>
                     </div>
