@@ -36,10 +36,10 @@ function Footer() {
             </ul>
 
             <div className='footer__contracts'>
-                <Link href='/' className='footer__contracts--item'>
+                <Link href='/'>
                     Terms of services
                 </Link>
-                <Link href='/' className='footer__contracts--item'>
+                <Link href='/'>
                     Privacy Policy
                 </Link>
             </div>

@@ -3,6 +3,7 @@
     justify-content: center;
     justify-items: center;
     grid-column: center-start / center-end;
+    padding: 1rem 0;
 
     &__links {
         display: flex;
@@ -20,13 +21,19 @@
         justify-content: space-around;
         width: 100%;
 
-       a:link,
-       a:visited,
-       a:hover{
-        text-decoration: none;
+        a:link,
+        a:visited,
+        a:hover {
+            text-decoration: none;
+            color: white;
+            opacity: 0.6;
+            font-size: 1.2rem;
+        }
+    }
+
+    &__copyright {
         color: white;
-        opacity: .6;
+        opacity: 0.6;
         font-size: 1.2rem;
-       }
     }
 }
