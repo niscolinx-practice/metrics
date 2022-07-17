@@ -101,6 +101,10 @@
         width: 100%;
         display: grid;
 
+        &--1{
+            background-color: red;
+        }
+
         &--input{
             outline: none;
             border-bottom: 1px solid black;
