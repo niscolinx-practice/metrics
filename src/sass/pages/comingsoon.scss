@@ -99,12 +99,14 @@
 
     &__form {
         width: 100%;
-
+        display: grid;
 
         &--input{
+            outline: none;
             border-bottom: 1px solid black;
             background-color: inherit;
             color: white;
+            padding: .5rem .5rem;
         }
         &--input::placeholder {
             text-align: left;
