@@ -80,6 +80,10 @@
 
             &-item{
                 display: grid;
+
+                .span-1{
+                    font-size: 2.9rem;
+                }
             }
         }
     }

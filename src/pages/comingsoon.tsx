@@ -22,16 +22,16 @@ function comingSoon() {
                         <span className='span-2'>Days</span>
                     </div>
                     <div className='comingSoon__content--timer-item'>
-                        <span>24</span>
-                        <span>Hours</span>
+                        <span className='span-1'>24</span>
+                        <span className='span-2'>Hours</span>
                     </div>
                     <div className='comingSoon__content--timer-item'>
-                        <span>54</span>
-                        <span>Minutes</span>
+                        <span className='span-1'>54</span>
+                        <span className='span-2'>Minutes</span>
                     </div>
                     <div className='comingSoon__content--timer-item'>
-                        <span>11</span>
-                        <span>Second</span>
+                        <span className='span-1'>11</span>
+                        <span className='span-2'>Second</span>
                     </div>
                 </div>
                 <form>
