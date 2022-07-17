@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { HtmlHTMLAttributes } from 'react'
 
 function comingSoon() {
+
+    const handleSubmit = (e:React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault()
+    }
     return (
         <div className='comingSoon'>
             <div className='comingSoon__ellipse'>
@@ -34,7 +38,7 @@ function comingSoon() {
                         <span className='span-2'>Second</span>
                     </div>
                 </div>
-                <form>
+                <form className='' onSubmit={handleSubmit}>
                     <input type='text' placeholder='First Name..' />
                     <input type='text' placeholder='Last Name..' />
 
