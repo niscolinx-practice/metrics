@@ -8,7 +8,7 @@ function Footer() {
     return (
         <footer className='footer'>
             <ul className='footer__links'>
-                <li className='footer__links--item'>
+                <li className='footer__links--item footer__links--item-active'>
                     <Link href='/'>
                         <BsYoutube />
                     </Link>
@@ -36,12 +36,8 @@ function Footer() {
             </ul>
 
             <div className='footer__contracts'>
-                <Link href='/'>
-                    Terms of services
-                </Link>
-                <Link href='/'>
-                    Privacy Policy
-                </Link>
+                <Link href='/'>Terms of services</Link>
+                <Link href='/'>Privacy Policy</Link>
             </div>
             <div className='footer__copyright'>
                 <p>
