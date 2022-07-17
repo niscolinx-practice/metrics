@@ -49,7 +49,7 @@
         }
     }
 
-    &__content {
+    &__rapper{
         position: relative;
         z-index: 500;
         display: grid;
@@ -58,6 +58,7 @@
         justify-items: center;
         text-align: center;
         gap: 2rem;
+    }
 
         &--header {
             font-weight: bold;
@@ -96,5 +97,10 @@
                 }
             }
         }
+
+    
+
+    &__form{
+        background-color: white;
     }
 }
