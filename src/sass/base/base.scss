@@ -8,9 +8,11 @@
 
 @font-face {
     font-family: 'AdobeClean';
-    src: url('fonts/AdobeCleanRegular.otf') format('otf'),
-        
-  }  
+    src: url('/public/fonts/AdobeCleanBold.otf') format('otf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 
 html,
 body {
@@ -18,12 +20,11 @@ body {
     position: relative;
     line-height: 1.6;
     font-weight: 400;
-    font-family: $font-Poppings;
+    font-family: $font-AdobeClean;
     box-sizing: border-box;
 }
 
-body{
-    background: linear-gradient( to bottom, #210045, #0C0123 40%);
+body {
+    background: linear-gradient(to bottom, #210045, #0c0123 40%);
     // background: red;
-
 }
