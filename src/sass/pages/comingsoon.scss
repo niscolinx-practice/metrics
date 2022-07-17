@@ -143,6 +143,11 @@
             width: 65%;
         }
 
+        &--input-email::placeholder{
+            font-weight: 300;
+            font-size: 1rem;
+        }
+
         &--btn {
             text-transform: uppercase;
             padding: 1rem 2rem;
