@@ -14,8 +14,7 @@ function comingSoon() {
                     Something awesome is coming soon
                 </h1>
                 <p className='comingSoon__content--text'>
-                    Your all-in-one affiliate marketing tracking software track,
-                    automate and optimize your campaigns.
+                    Your all-in-one affiliate marketing tracking software  <span>track</span>, <span>automate</span>  and  <span>optimize</span> your campaigns.
                 </p>
                 <div className='comingSoon__timer'>
                     <div className='comingSoon__timer-item'>
