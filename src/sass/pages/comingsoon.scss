@@ -63,5 +63,13 @@
             text-transform: uppercase;
             text-align: center;
         }
+
+        &--text{
+            font-weight: 200;
+
+            span{
+                font-weight: 500;
+            }
+        }
     }
 }
