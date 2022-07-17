@@ -36,8 +36,8 @@ function Footer() {
           </ul>
 
           <div className='footer__contracts'>
-              <Link href='/'>Terms of services</Link>
-              <Link href='/'>Privacy Policy</Link>
+              <Link href='/' className='footer__contracts--item'>Terms of services</Link>
+              <Link href='/' className='footer__contracts--item'>Privacy Policy</Link>
           </div>
           <div className='footer__copyright'>
               <p>Copyright 2021 @ Peddle Technologies. All Rights Reserved.</p>

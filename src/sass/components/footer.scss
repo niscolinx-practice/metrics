@@ -1,19 +1,22 @@
-.footer{
+.footer {
     display: grid;
     justify-content: center;
     justify-items: center;
     grid-column: center-start / center-end;
 
-    &__links{
+    &__links {
         display: flex;
         list-style: none;
         justify-content: space-between;
         width: 20rem;
 
-        &--item{
+        &--item {
             font-size: 2.5rem;
         }
+    }
 
-       
+    &__contracts{
+        display: flex;
+        
     }
 }
