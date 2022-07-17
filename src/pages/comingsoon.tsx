@@ -40,27 +40,25 @@ function comingSoon() {
                     </div>
                 </div>
                 <form className='comingSoon__form' onSubmit={handleSubmit}>
-                    <div className="comingSoon__form--1">
-
-                    <input
-                        type='text'
-                        placeholder='First Name..'
-                        className='comingSoon__form--input'
+                    <div className='comingSoon__form--1'>
+                        <input
+                            type='text'
+                            placeholder='First Name..'
+                            className='comingSoon__form--input'
                         />
-                    <input
-                        type='text'
-                        placeholder='Last Name..'
-                        className='comingSoon__form--input'
+                        <input
+                            type='text'
+                            placeholder='Last Name..'
+                            className='comingSoon__form--input'
                         />
-
-                        </div>
+                    </div>
                     <div className='comingSoon__form--2'>
                         <input
                             type='text'
                             placeholder='Email your email address...'
                             className='comingSoon__form--input-email'
                         />
-                        <button type='submit'>Join Our waiting List</button>
+                        <button type='submit' className='comingSoon__form--btn'>Join Our waiting List</button>
                     </div>
                 </form>
             </div>
