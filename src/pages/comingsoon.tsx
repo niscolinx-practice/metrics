@@ -10,8 +10,10 @@ function comingSoon() {
             </div>
 
             <div className='comingSoon__content'>
-                <h1>Something awesome is coming soon</h1>
-                <p>
+                <h1 className='comingSoon__content--header'>
+                    Something awesome is coming soon
+                </h1>
+                <p className='comingSoon__content--text'>
                     Your all-in-one affiliate marketing tracking software track,
                     automate and optimize your campaigns.
                 </p>
