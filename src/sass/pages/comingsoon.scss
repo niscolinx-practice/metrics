@@ -60,7 +60,7 @@
 
         &--header {
             font-weight: bold;
-            font-size: 3.8rem;
+            font-size: 3rem;
             text-transform: uppercase;
             text-align: center;
         }
@@ -80,12 +80,14 @@
             width: 100%;
             justify-content: center;
             gap: 2rem;
+
+
             &-item {
                 display: grid;
                 background-color: white;
                 color: black;
-                width: 7.5rem;
-                height: 8.3rem;
+                width: 6.5rem;
+                height: 7.3rem;
 
                 .span-1 {
                     font-size: 2.9rem;
