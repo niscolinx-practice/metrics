@@ -76,7 +76,10 @@
 
         &--timer {
             display: flex;
-
+            background-color: red;
+            width: 100%;
+            justify-content: center;
+            gap: 2rem;
             &-item {
                 display: grid;
                 background-color: white;
