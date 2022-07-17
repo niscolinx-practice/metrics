@@ -20,8 +20,7 @@
             height: 143px;
             border-radius: 100%;
             background: transparent
-                linear-gradient(177deg, #7f1e7b 0%, #19073b 100%) 0% 0%
-                no-repeat padding-box;
+                linear-gradient(177deg, #7f1e7b 0%, #19073b 82%);
             opacity: 1;
         }
 
@@ -33,8 +32,7 @@
             height: 107px;
             border-radius: 100%;
             background: transparent
-                linear-gradient(177deg, #213f72 0%, #19073b 100%) 0% 0%
-                no-repeat padding-box;
+                linear-gradient(177deg, #213f72 0%, #19073b 82%) ;
             opacity: 1;
         }
 
@@ -46,8 +44,7 @@
             width: 183px;
             height: 187px;
             background: transparent
-                linear-gradient(177deg, #7f4129 0%, #1c0c28 100%) 0% 0%
-                no-repeat padding-box;
+                linear-gradient(177deg, #7f4129 0%, #1c0c28 82%) ;
             opacity: 1;
         }
     }
@@ -60,7 +57,7 @@
 
         &--header{
             font-weight: bold;
-            font-size: 6rem;
+            //font-size: 6rem;
             text-transform: uppercase;
             text-align: center;
         }
