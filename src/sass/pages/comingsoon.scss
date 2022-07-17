@@ -60,14 +60,14 @@
         gap: 2rem;
     }
 
-        &--header {
+        &__header {
             font-weight: bold;
             font-size: 3rem;
             text-transform: uppercase;
             text-align: center;
         }
 
-        &--text {
+        &__text {
             font-weight: 200;
             padding: 0 6rem;
 
@@ -76,14 +76,14 @@
             }
         }
 
-        &--timer {
+        &__timer {
             display: flex;
             width: 100%;
             justify-content: center;
             gap: 2rem;
 
 
-            &-item {
+            &--item {
                 display: grid;
                 background-color: white;
                 color: black;
