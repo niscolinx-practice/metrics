@@ -145,13 +145,14 @@
 
         &--btn {
             text-transform: uppercase;
-            padding: 2rem 3rem;
+            padding: 1rem 2rem;
             border-radius: 2rem;
             background-color: $color-1;
             color: white;
             outline: none;
             border: none;
             position: absolute;
+            right: 0;
         }
 
         
