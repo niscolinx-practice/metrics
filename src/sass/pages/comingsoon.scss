@@ -55,5 +55,10 @@
     &__content {
         position: relative;
         z-index: 500;
+
+        &--header{
+            font-weight: bold;
+            font-weight: 6rem;
+        }
     }
 }
