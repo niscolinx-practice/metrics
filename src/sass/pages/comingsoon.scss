@@ -14,7 +14,7 @@
 
         &--1 {
             position: absolute;
-            top: 2;
+            bottom: 0;
             right: 2;
             width: 140px;
             height: 143px;
@@ -23,7 +23,6 @@
                 linear-gradient(177deg, #7f1e7b 0%, #19073b 100%) 0% 0%
                 no-repeat padding-box;
             opacity: 1;
-            background-color: white;
         }
 
         &--2 {
@@ -37,13 +36,12 @@
                 linear-gradient(177deg, #213f72 0%, #19073b 100%) 0% 0%
                 no-repeat padding-box;
             opacity: 1;
-            background-color: white;
         }
 
         &--3 {
             border-radius: 100%;
             position: absolute;
-            top: 3;
+            top: 30rem;
             left: 4;
             width: 183px;
             height: 187px;
@@ -51,7 +49,6 @@
                 linear-gradient(177deg, #7f4129 0%, #1c0c28 100%) 0% 0%
                 no-repeat padding-box;
             opacity: 1;
-            background-color: white;
         }
     }
 
