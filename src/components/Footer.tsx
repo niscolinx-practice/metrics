@@ -37,8 +37,8 @@ function Footer() {
       </ul>
 
       <div className="footer__contracts">
-        <Link>Terms of services</Link>
-        <Link>Privacy Policy</Link>
+        <Link href='/'>Terms of services</Link>
+        <Link href='/'>Privacy Policy</Link>
       </div>
     </footer>
   )
