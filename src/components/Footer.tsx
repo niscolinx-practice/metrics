@@ -6,7 +6,7 @@ import { FaTwitterSquare } from 'react-icons/fa'
 
 function Footer() {
     return (
-        <footer className='footer'>
+        <footer className='footer footer__glassmorphism'>
             <ul className='footer__links'>
                 <li className='footer__links--item footer__links--item-active'>
                     <Link href='/'>
