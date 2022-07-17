@@ -103,6 +103,8 @@
 
         &--input{
             border-bottom: 1px solid black;
+            background-color: transparent;
+            color: white;
         }
         &--input::placeholder {
             text-align: left;
