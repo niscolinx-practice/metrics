@@ -32,7 +32,7 @@
             height: 107px;
             border-radius: 100%;
             background: transparent
-                linear-gradient(177deg, #213f72 0%, #19073b 82%) ;
+                linear-gradient(177deg, #213f72 0%, #19073b 82%);
             opacity: 1;
         }
 
@@ -44,7 +44,7 @@
             width: 183px;
             height: 187px;
             background: transparent
-                linear-gradient(177deg, #7f4129 0%, #1c0c28 82%) ;
+                linear-gradient(177deg, #7f4129 0%, #1c0c28 82%);
             opacity: 1;
         }
     }
@@ -58,19 +58,18 @@
         justify-items: center;
         text-align: center;
 
-        &--header{
+        &--header {
             font-weight: bold;
             font-size: 3.8rem;
             text-transform: uppercase;
             text-align: center;
         }
 
-        &--text{
+        &--text {
             font-weight: 200;
             padding: 0 6rem;
 
-
-            span{
+            span {
                 font-weight: 500;
             }
         }
@@ -78,12 +77,14 @@
         &--timer {
             display: flex;
 
-            &-item{
+            &-item {
                 display: grid;
                 background-color: white;
                 color: black;
+                width: 120px;
+                height: 134px;
 
-                .span-1{
+                .span-1 {
                     font-size: 2.9rem;
                 }
             }
