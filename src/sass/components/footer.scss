@@ -8,8 +8,8 @@
         list-style: none;
         justify-content: space-between;
 
-        li{
-            font-size: 2rem;
+        &--item{
+            font-size: 2.5rem;
         }
     }
 }
