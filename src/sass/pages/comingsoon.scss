@@ -129,6 +129,7 @@
 
         &--2 {
             width: 100%;
+            position: relative;
         }
 
         &--input-email {
@@ -138,6 +139,8 @@
             color: black;
             outline: none;
             border: none;
+            width: 60%;
+            display: flex;
         }
 
         &--btn {
@@ -146,6 +149,9 @@
             border-radius: 2rem;
             background-color: $color-1;
             color: white;
+            outline: none;
+            border: none;
+           
         }
 
         
