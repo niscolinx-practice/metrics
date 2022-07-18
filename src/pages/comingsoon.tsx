@@ -1,6 +1,7 @@
 import React, { HtmlHTMLAttributes } from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import ContactUs from '../Containers/ContactUs'
 
 function comingSoon() {
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -68,7 +69,7 @@ function comingSoon() {
             </div>
 
             <div className="comingSoon__contactUs">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt dicta accusantium quisquam, quae, placeat voluptatibus reprehenderit vero delectus hic, eligendi nostrum beatae eveniet nulla nobis. Minima et molestias reprehenderit sunt.
+               <ContactUs/>
             </div>
         </div>
         <Footer/>
