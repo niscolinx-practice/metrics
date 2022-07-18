@@ -1,8 +1,10 @@
 .header {
     display: flex;
-    grid-column: center-start / center-end;
+    //grid-column: center-start / center-end;
     justify-content: space-between;
     align-items: center;
+    margin: 0 3rem;
+    z-index: 2;
 
     &__logo {
         width: 197px;

@@ -2,20 +2,20 @@
     grid-column: 1 / -1;
     height: 65vh;
     display: grid;
-    justify-content: center;
+    //justify-content: center;
     //position: relative;
 
     &__ellipse {
         position: absolute;
-        z-index: 10;
+        z-index: 1;
         height: 100vh;
         left: 0;
         right: 0;
 
         &--1 {
             position: absolute;
-            top: 2rem;
-            left: 10rem;
+            top: 15rem;
+            left: 20rem;
             width: 140px;
             height: 143px;
             border-radius: 100%;
@@ -58,6 +58,9 @@
         justify-items: center;
         text-align: center;
         gap: 2rem;
+        margin: 0 auto;
+        justify-content: center;
+        justify-items: center;
     }
 
     &__header {
@@ -168,6 +171,6 @@
         left: 0;
         right: 0;
         height: 100vh;
-        background-color: red;
+        z-index: 2;
     }
 }
