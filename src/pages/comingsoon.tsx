@@ -62,6 +62,10 @@ function comingSoon() {
                     </div>
                 </form>
             </div>
+
+            <div className="comingSoon__contactUs">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt dicta accusantium quisquam, quae, placeat voluptatibus reprehenderit vero delectus hic, eligendi nostrum beatae eveniet nulla nobis. Minima et molestias reprehenderit sunt.
+            </div>
         </div>
     )
 }
