@@ -82,14 +82,17 @@
 
         &--1{
 
-            .main{
+            .main__searchBox{
+                position: relative;
 
-                &__searchBox{
+                input{
 
                     width: 613px;
                 }
 
-                
+                &__icon{
+                    position: absolute;
+                }
             }
         }
     }
