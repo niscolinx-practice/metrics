@@ -19,7 +19,6 @@ const Header = ({ isComingSoon, isBlog }: HeaderProps) => {
     const useLinkStyles__active: React.CSSProperties = {
         background: 'white',
         color: 'black',
-        boxShadow: 'none'
     }
 
     return (
