@@ -1,4 +1,5 @@
 import React from 'react'
+import SubCard from '../components/SubCard'
 
 function blog() {
     return (
