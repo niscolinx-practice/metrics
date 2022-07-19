@@ -10,6 +10,7 @@ const Header = ({ isComingSoon, isBlog }: HeaderProps) => {
     const useStyle: React.CSSProperties = {
         display: isComingSoon ? 'none' : 'flex',
         background: isBlog ? 'white' : '',
+        padding: isBlog ? '4rem 6rem' : '2.5rem 6rem'
     }
 
     const useLinkStyles: React.CSSProperties = isBlog
@@ -27,7 +28,7 @@ const Header = ({ isComingSoon, isBlog }: HeaderProps) => {
 
     return (
         <header className='header' style={useStyle}>
-            <div className='header__logo'>
+            <div className='header__logo' style={{width: isBlog ? '110px' : '197px'}}>
                 <Link href='/'>
                     <img
                         src={`${isBlog ? 'logo-color.svg' : 'logo-white.png'}`}
