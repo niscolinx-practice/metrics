@@ -146,12 +146,11 @@
     &__footer {
         position: relative;
         grid-column: 1 / -1;
-        margin-bottom: 3rem;
+        background: linear-gradient(180deg, #213F72 0%, #19073B 100%);
 
         .footer-1 {
             position: relative;
             z-index: 2;
-            background: #eddbf021;
             width: 1920px;
             height: 463px;
             backdrop-filter: blur(16px);
