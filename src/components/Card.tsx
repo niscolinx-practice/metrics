@@ -12,23 +12,20 @@ function Card({image, date, title, description}: CardProps) {
     return (
         <div className='card'>
             <Image
-                src='/person1.jpeg'
+                src={image}
                 alt=''
                 width={'487px'}
                 height={'322px'}
             />
             <div className='card__details'>
                 <p className='card__date'>
-                    SEPTEMBER 6, 2021 . FEATURED ARTICLE . AFFILATE
+                    {date}
                 </p>
                 <h2 className='card__title'>
-                    12 Popup Use Cases To Increase Conversions
+                    {title}
                 </h2>
                 <p className='card__description'>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                    justo duo dolores et ea rebum
+                    {description}
                 </p>
 
                 <div className='card__btn'>

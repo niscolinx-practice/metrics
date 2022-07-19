@@ -42,11 +42,7 @@ function blog() {
                     aliquyam erat, sed diam voluptua. At vero eos et accusam et
                     justo duo dolores et ea rebum'
                         />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
-                        <Card />
+                        
                     </div>
                 </div>
 
