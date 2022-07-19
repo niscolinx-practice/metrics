@@ -12,13 +12,14 @@ const Header = ({ isComingSoon, isBlog }: HeaderProps) => {
         background: isBlog ? 'white' : '',
     }
 
-    const useLinkStyles = {
+    const useLinkStyles:React.CSSProperties = {
         color: 'black',
     }
 
-    const useLinkStyles__active = {
+    const useLinkStyles__active: React.CSSProperties = {
         background: 'white',
-        color: 'black'
+        color: 'black',
+        boxShadow: 'none'
     }
 
     return (
