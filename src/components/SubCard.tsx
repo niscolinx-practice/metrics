@@ -1,17 +1,18 @@
 import React from 'react'
 
-type SubCardProps = {
+type CardTextProps = {
   title: string
   text: string
 }
 
 
-function SubCard({title, text}: SubCardProps) {
+function CardText({title, text}: CardTextProps) {
   return (
-    <div>
-      
+    <div className='CardText'>
+      <h1>{title}</h1>
+      <p>{text}</p>
     </div>
   )
 }
 
-export default SubCard
+export default CardText
