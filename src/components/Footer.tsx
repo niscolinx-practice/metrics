@@ -17,6 +17,9 @@ function Footer({isComingSoon, isBlog}: HeaderProps) {
         const addFooterStyle =  window.document.querySelector('.footer')
 
         console.log({addFooterStyle})
+        addFooterStyle?.classList.add('footer__isBlog')
+
+        return addFooterStyle?.classList.remove('footer__isBlog')
 
     }, [isBlog])
 
