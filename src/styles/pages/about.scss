@@ -247,33 +247,33 @@
 
             display: grid;
             justify-content: start;
+            gap: 2rem;
             align-content: center;
 
-            &__header{
+            &__header {
                 letter-spacing: 0.9px;
                 font-size: 2.8rem;
                 font-weight: 500;
             }
 
-            &__text{
+            &__text {
                 font-size: 1.5rem;
                 font-weight: 300;
+                width: 786px;
             }
 
-            &__btn{
-
-                button{
+            &__btn {
+                button {
                     font-size: 1.3rem;
                     font-weight: 500;
-                    color: #FF00F7;
+                    color: #ff00f7;
                     background-color: transparent;
                     border: none;
                     outline: none;
                 }
 
-                span{
-                    color: #FF00F7;
-
+                span {
+                    color: #ff00f7;
                 }
             }
         }
