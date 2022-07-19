@@ -33,6 +33,11 @@ function blog() {
 
                 <div className="blog__main--2">
                     <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
                 </div>
             </div>
         </div>
