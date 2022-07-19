@@ -14,7 +14,6 @@ const Header = ({ isComingSoon, isBlog }: HeaderProps) => {
 
     const useLinkStyles = {
         color: 'black',
-        background: 'red',
     }
 
     return (
@@ -26,7 +25,7 @@ const Header = ({ isComingSoon, isBlog }: HeaderProps) => {
             </div>
 
             <ul className='header__lists'>
-                <li className='header__lists--item' style={useLinkStyles}>
+                <li className='header__lists--item'>
                     <Link href='/about'>
                         <a style={useLinkStyles}>About Us</a>
                     </Link>
@@ -36,7 +35,7 @@ const Header = ({ isComingSoon, isBlog }: HeaderProps) => {
                         <a style={useLinkStyles}>Blog</a>
                     </Link>
                 </li>
-                <li className='header__lists--item header__lists--item-active'>
+                <li className='header__lists--item header__lists--item-active' style={useLinkStyles}>
                     Contact Us
                 </li>
             </ul>
