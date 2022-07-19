@@ -89,7 +89,7 @@
     }
 
     &__section1 {
-        margin: 10rem 0;
+        margin: 15rem 0;
         display: grid;
         justify-content: center;
         grid-column: 1 / -1;
@@ -110,6 +110,7 @@
         display: grid;
         grid-column: 1 / -1;
         grid-template-columns: 1fr 1fr;
+        margin-bottom: 15rem;
 
         .section2-1 {
             display: grid;
@@ -229,6 +230,22 @@
                 font-size: 1.3rem;
                 line-height: 3rem;
             }
+        }
+    }
+
+    &__section3 {
+        position: relative;
+        grid-column: 1 / -1;
+
+        .section3-1 {
+            background: #eddbf021;
+            width: 1920px;
+            height: 463px;
+            backdrop-filter: blur(16px);
+        }
+
+        .section3-2{
+            
         }
     }
 }
