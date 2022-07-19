@@ -19,7 +19,8 @@ function blog() {
             <div className="blog__main">
 
                 <div className="blog__main--1">
-                    <Text/>
+                    <SubCard/>
+                    <input type="text" />
                 </div>
 
             </div>
