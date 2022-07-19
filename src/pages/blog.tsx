@@ -1,5 +1,5 @@
 import React from 'react'
-import SubCard from '../components/CardText'
+import CardText from '../components/CardText'
 
 function blog() {
     return (
@@ -19,7 +19,7 @@ function blog() {
 
             <div className='blog__main'>
                 <div className='blog__main--1'>
-                    <SubCard
+                    <CardText
                         title='Latest From The Blog'
                         text='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam'
                     />

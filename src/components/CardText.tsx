@@ -9,8 +9,8 @@ type CardTextProps = {
 function CardText({title, text}: CardTextProps) {
   return (
     <div className='cardText'>
-      <h1>{title}</h1>
-      <p>{text}</p>
+      <h1 className='cardText__title'>{title}</h1>
+      <p className='cardText__text'>{text}</p>
     </div>
   )
 }
