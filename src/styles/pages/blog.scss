@@ -78,7 +78,7 @@
         padding: 5rem 3rem;
         color: black;
         display: grid;
-        grid-column: 2 / 11;
+        grid-column: 3 / 11;
 
         &--1 {
             display: flex;
@@ -114,6 +114,7 @@
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
                 gap: 2rem;
+                row-gap: 4rem;
             }
         }
     }
