@@ -28,7 +28,7 @@ const Header = ({ isComingSoon, isBlog }: HeaderProps) => {
 
     return (
         <header className='header' style={useStyle}>
-            <div className='header__logo' style={{width: isBlog ? '110px' : '197px'}}>
+            <div className='header__logo' style={{width: isBlog ? '120px' : '197px'}}>
                 <Link href='/'>
                     <img
                         src={`${isBlog ? 'logo-color.svg' : 'logo-white.png'}`}
