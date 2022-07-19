@@ -124,10 +124,11 @@ function blog() {
             </div>
             <section className='blog__footer'>
                 <div className='footer-1'>
-                    <h2 className='footer-1__header'>Got a Question?</h2>
+                    <h2 className='footer-1__header'>
+                        what to know more about Metrics ?
+                    </h2>
                     <p className='footer-1__text'>
-                        See how Metricks can help your business grow with best
-                        Affiliate Marketing Tracking Software.
+                        Learn who we are and what drives us.
                     </p>
                     <div className='footer-1__btn'>
                         <button>Contact Us</button>
