@@ -19,7 +19,7 @@ function blog() {
             <div className="blog__main">
 
                 <div className="blog__main--1">
-                    
+                    <Text/>
                 </div>
 
             </div>
