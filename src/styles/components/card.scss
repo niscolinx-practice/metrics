@@ -30,4 +30,10 @@
         object-fit: cover;
         object-position: center;
     }
+
+    &__date{
+        font-size: .8rem;
+        font-weight: 200;
+        letter-spacing: 42;
+    }
 }
