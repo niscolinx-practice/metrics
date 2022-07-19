@@ -29,6 +29,10 @@ function blog() {
                         <IoIosSearch className='main__searchBox--icon' />
                     </div>
                 </div>
+
+                <div className="blog__main--2">
+                    <Card/>
+                </div>
             </div>
         </div>
     )
