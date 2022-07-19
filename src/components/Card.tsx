@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-function Card() {
+function Card({image, date, title, description}: CardProps) {
     return (
         <div className='card'>
             <Image

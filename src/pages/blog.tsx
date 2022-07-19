@@ -33,7 +33,7 @@ function blog() {
 
                 <div className='blog__main--2'>
                     <div className='cards'>
-                        <Card />
+                        <Card image={}/>
                         <Card />
                         <Card />
                         <Card />
@@ -44,15 +44,13 @@ function blog() {
 
                 <div className='blog__main--3'>
                     <CardText
-                        title='Latest From The Blog'
+                        title='Recent Articles'
                         text='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam'
                     />
                 </div>
 
-                <div className="blog__main--4">
-                    <div className="cards">
-                        
-                    </div>
+                <div className='blog__main--4'>
+                    <div className='cards'></div>
                 </div>
             </div>
         </div>
