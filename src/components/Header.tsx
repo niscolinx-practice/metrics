@@ -28,12 +28,12 @@ const Header = ({ isComingSoon, isBlog }: HeaderProps) => {
             <ul className='header__lists'>
                 <li className='header__lists--item' style={useLinkStyles}>
                     <Link href='/about'>
-                        <a style={{ color: 'black' }}>About Us</a>
+                        <a style={useLinkStyles}>About Us</a>
                     </Link>
                 </li>
                 <li className='header__lists--item'>
-                    <Link href='/blog' style={useLinkStyles}>
-                        Blog
+                    <Link href='/blog'>
+                        <a style={useLinkStyles}>Blog</a>
                     </Link>
                 </li>
                 <li className='header__lists--item header__lists--item-active'>
