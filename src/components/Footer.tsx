@@ -16,10 +16,15 @@ function Footer({isComingSoon, isBlog}: HeaderProps) {
     useEffect(() => {
         const addFooterStyle =  window.document.querySelector('.footer')
 
-        console.log({addFooterStyle})
-        addFooterStyle?.classList.add('footer__isBlog')
+        if(isBlog){
 
-        return addFooterStyle?.classList.remove('footer__isBlog')
+            addFooterStyle?.classList.add('footer__isBlog')
+        }
+        else{
+
+            addFooterStyle?.classList.remove('footer__isBlog')
+        }
+
 
     }, [isBlog])
 
