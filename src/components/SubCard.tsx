@@ -8,7 +8,9 @@ type SubCardProps = {
 
 function SubCard({title, text}: SubCardProps) {
   return (
-    <div>SubCard</div>
+    <div>
+      
+    </div>
   )
 }
 
