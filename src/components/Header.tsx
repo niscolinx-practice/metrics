@@ -12,14 +12,18 @@ const Header = ({ isComingSoon, isBlog }: HeaderProps) => {
         background: isBlog ? 'white' : '',
     }
 
-    const useLinkStyles:React.CSSProperties = {
-        color: 'black',
-    }
+    const useLinkStyles: React.CSSProperties = isBlog
+        ? {
+              color: 'black',
+          }
+        : {}
 
-    const useLinkStyles__active: React.CSSProperties = {
-        background: 'white',
-        color: 'black',
-    }
+    const useLinkStyles__active: React.CSSProperties = isBlog
+        ? {
+              background: 'white',
+              color: 'black',
+          }
+        : {}
 
     return (
         <header className='header' style={useStyle}>
@@ -40,7 +44,10 @@ const Header = ({ isComingSoon, isBlog }: HeaderProps) => {
                         <a style={useLinkStyles}>Blog</a>
                     </Link>
                 </li>
-                <li className='header__lists--item header__lists--item-active' style={useLinkStyles__active}>
+                <li
+                    className='header__lists--item header__lists--item-active'
+                    style={useLinkStyles__active}
+                >
                     Contact Us
                 </li>
             </ul>
