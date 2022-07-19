@@ -80,27 +80,25 @@
         display: grid;
         grid-column: 2 / -2;
 
-        &--1{
+        &--1 {
             display: flex;
             justify-content: space-between;
 
-            .main__searchBox{
+            .main__searchBox {
                 position: relative;
                 justify-self: start;
                 align-content: center;
                 align-items: center;
                 display: grid;
-                width: 900px;
+                //width: 900px;
 
-                input{
+                input {
                     border-radius: 3rem;
                     padding: 3rem 2rem;
-                    
-                    border: none;
                     border: 1px solid black;
                 }
 
-                &--icon{
+                &--icon {
                     position: absolute;
                     right: 1rem;
 
