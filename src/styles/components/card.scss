@@ -54,14 +54,17 @@
 
         &--dash {
             position: absolute;
+            left: 0;
+            top: 0;
             height: 2px;
             width: 5rem;
-            color: #ff00f7;
+            background-color: #ff00f7;
+
         }
 
         &--main {
             letter-spacing: 0.54px;
-            font-size: 1.1rem;
+            font-size: .8rem;
             border: none;
             outline: none;
             color: #ff00f7;
