@@ -129,8 +129,8 @@
                 row-gap: 4rem;
             }
 
-            &-btn{
-                background-color: #7C0FD5;
+            &-btn {
+                background-color: #7c0fd5;
                 border-radius: 3rem;
                 padding: 1.7rem 4rem;
                 font-size: 1.2rem;
@@ -146,14 +146,13 @@
     &__footer {
         position: relative;
         grid-column: 1 / -1;
-        background: linear-gradient(180deg, #213F72 0%, #19073B 100%);
+        background: linear-gradient(180deg, #213f72 0%, #19073b 100%);
 
         .footer-1 {
             position: relative;
             z-index: 2;
             width: 1920px;
             height: 463px;
-            backdrop-filter: blur(16px);
 
             display: grid;
             justify-content: start;
@@ -196,8 +195,14 @@
             }
         }
 
-        .footer-2{
-            
+        .footer-2 {
+            position: absolute;
+            z-index: 2;
+            backdrop-filter: blur(16px);
+            width: 557px;
+            height: 318px;
+            right: 0;
+            background-color: red;
         }
 
         .footer-3 {
