@@ -11,13 +11,13 @@ type CardProps = {
 function Card({src, date, title, description}: CardProps) {
     return (
         <div className='card'>{
-            
+            src !== '/' ?
             <Image
                 src={src}
                 alt=''
                 width={'487px'}
                 height={'322px'}
-            />
+            /> : ''
         }
             <div className='card__details'>
                 <p className='card__date'>
