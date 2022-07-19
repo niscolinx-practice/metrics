@@ -21,7 +21,7 @@ function blog() {
                 <div className='blog__main--1'>
                     <SubCard
                         title='Latest From The Blog'
-                        text='Latest From The Blog'
+                        text='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam'
                     />
                     <input type='text' />
                 </div>
