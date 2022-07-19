@@ -1,6 +1,7 @@
 import React from 'react'
 import CardText from '../components/CardText'
 
+
 function blog() {
     return (
         <div className='blog'>
