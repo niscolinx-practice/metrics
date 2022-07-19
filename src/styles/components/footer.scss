@@ -6,8 +6,6 @@
     grid-column: center-start / center-end;
     padding: 2rem 0;
 
-    
-
     &__links {
         display: flex;
         list-style: none;
@@ -60,13 +58,20 @@
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
-.footer__isBlog{
+.footer__isBlog {
     background-color: white;
 
-    a{
-        color: black;
+    ul {
+        li {
+            a {
+                color: black;
+                background-color: red;
+            }
+        }
     }
 
-     
+    a {
+        color: black;
+        background-color: red;
+    }
 }
-
