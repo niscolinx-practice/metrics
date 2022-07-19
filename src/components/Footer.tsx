@@ -12,12 +12,12 @@ type HeaderProps = {
 
 function Footer({isComingSoon, isBlog}: HeaderProps) {
 
-    
+
 
 
     return (
         <footer
-            className='footer'
+            className='footer footer__isBlog'
             style={isComingSoon ? { display: 'none' } : { display: 'grid' }}
         >
             <ul className='footer__links'>
