@@ -26,7 +26,7 @@ function blog() {
                     />
                     <div className='main__searchBox'>
                         <input type='text' />
-                        <IoIosSearch className='main__icon' />
+                        <IoIosSearch className='main__searchBox--icon' />
                     </div>
                 </div>
             </div>

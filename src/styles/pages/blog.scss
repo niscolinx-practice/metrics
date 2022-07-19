@@ -92,9 +92,10 @@
                     outline: none;
                 }
 
-                &__icon{
+                &--icon{
                     position: absolute;
                     right: 0;
+                    font-size: 3rem;
                 }
             }
         }
