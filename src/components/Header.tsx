@@ -2,10 +2,16 @@ import Link from 'next/link'
 import React from 'react'
 
 const Header = ({isComingSoon, isBlog}: {isComingSoon: boolean, isBlog: boolean}) => {
+
+    const useStyle:React.CSSProperties = {
+        display: isComingSoon ? 'none' : 'flex'
+        
+    }
+
     return (
         <header
             className='header'
-            style={isComingSoon ? { display: 'none' } : { display: 'flex' }}
+            style={useStyle}
         >
             <div className='header__logo'>
                 <Link href='/'>
