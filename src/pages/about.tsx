@@ -1,5 +1,6 @@
 import React from 'react'
 import Dots from '../components/Dots'
+import {BsArrowRight} from 'react-icons/bs'
 
 const about = () => {
     return (
@@ -86,7 +87,7 @@ const about = () => {
                     </p>
                     <div className='section3-1__btn'>
                         <button>Contact Us</button>
-                        <span>&rarr;</span>
+                        <BsArrowRight className='section3-1__btn--arrow' />
                     </div>
                 </div>
                 <div className='section3-2'></div>

@@ -247,6 +247,7 @@
 
             display: grid;
             justify-content: start;
+            padding-left: 8rem;
             gap: 2rem;
             align-content: center;
 
@@ -260,9 +261,15 @@
                 font-size: 1.5rem;
                 font-weight: 300;
                 width: 786px;
+                line-height: 3rem;
             }
 
             &__btn {
+                display: flex;
+                align-items: center;
+                align-content: center;
+                gap: 0.5rem;
+
                 button {
                     font-size: 1.3rem;
                     font-weight: 500;
@@ -272,7 +279,8 @@
                     outline: none;
                 }
 
-                span {
+                &--arrow {
+                    font-size: 1.5rem;
                     color: #ff00f7;
                 }
             }
