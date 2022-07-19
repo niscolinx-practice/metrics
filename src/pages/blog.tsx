@@ -136,6 +136,7 @@ function blog() {
                     </div>
                 </div>
                 <div className='footer-2'></div>
+                <div className="footer-3"></div>
             </section>
         </div>
     )
