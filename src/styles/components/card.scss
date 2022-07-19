@@ -7,7 +7,7 @@
         font-size: 2.8rem;
         font-weight: 400;
     }
-    
+
     &__text {
         width: 814px;
         height: 104px;
@@ -19,51 +19,53 @@
     }
 }
 
-
-.card{
+.card {
     padding: 1rem;
     box-shadow: 0px 0px 30px #00000038;
     display: grid;
     justify-content: center;
     gap: 1rem;
 
-    img{
+    img {
         object-fit: cover;
         object-position: center;
     }
 
-    &__date{
-        font-size: .8rem;
+    &__date {
+        font-size: 0.8rem;
         font-weight: 200;
         letter-spacing: 42;
     }
 
-    &__title{
+    &__title {
         font-size: 1.6rem;
         font-weight: 600;
         text-transform: capitalize;
     }
 
-    &__description{
+    &__description {
         font-size: 1.1rem;
         font-weight: 200;
         line-height: 2rem;
     }
 
-    &__btn{
+    &__btn {
         position: relative;
-        color: #FF00F7;
-        
-        &--dash{
+
+        &--dash {
             position: absolute;
             height: 2px;
             width: 5rem;
+            color: #ff00f7;
         }
 
-        &--main{
-            letter-spacing: .54px;
+        &--main {
+            letter-spacing: 0.54px;
+            font-size: 1.1rem;
             border: none;
             outline: none;
+            color: #ff00f7;
+            background-color: white;
         }
     }
 }
