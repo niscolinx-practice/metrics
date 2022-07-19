@@ -12,8 +12,9 @@ type HeaderProps = {
 
 function Footer({isComingSoon, isBlog}: HeaderProps) {
 
-
     
+
+
     return (
         <footer
             className='footer'

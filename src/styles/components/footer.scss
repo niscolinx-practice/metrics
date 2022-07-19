@@ -6,6 +6,10 @@
     grid-column: center-start / center-end;
     padding: 2rem 0;
 
+    &__isBlog{
+        background-color: white;
+    }
+
     &__links {
         display: flex;
         list-style: none;
