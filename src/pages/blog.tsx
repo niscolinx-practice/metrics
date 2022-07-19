@@ -87,7 +87,6 @@ function blog() {
                     aliquyam erat, sed diam voluptua. At vero eos et accusam et
                     justo duo dolores et ea rebum'
                         />
-                        
                     </div>
                 </div>
 
@@ -104,12 +103,10 @@ function blog() {
                             image=''
                             date='SEPTEMBER 6, 2021 . FEATURED ARTICLE'
                             title='12 Popup Use Cases To Increase Conversions'
-                            description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                    justo duo d'
-                    />
+                            description='2. Unless specified otherwise, all Data requested by Metricks is mandatory and failure to provide this Data may make it impossible for Metricks to provide its services. In cases where Metricks specifically states that some Data is not mandatory, Users are free not to communicate this Data without consequences to the availability or the functioning of the Service..'
+                        />
                     </div>
+                    <button>Load More</button>
                 </div>
             </div>
         </div>
