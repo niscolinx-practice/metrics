@@ -25,7 +25,7 @@ function blog() {
                         text='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam'
                     />
                     <div className='main__searchBox'>
-                        <input type='text' />
+                        <input type='text' placeholder='Search here' />
                         <IoIosSearch className='main__searchBox--icon' />
                     </div>
                 </div>

@@ -1,16 +1,20 @@
 .cardText {
+    display: grid;
+    gap: 2rem;
     &__title {
         width: 469px;
         height: 63px;
         font-size: 2.8rem;
-        font-weight: 500;
+        font-weight: 400;
     }
     
     &__text {
         width: 814px;
         height: 104px;
         font-size: 1.3rem;
-        font-weight: 400;
+        font-weight: 300;
         line-height: 3rem;
+        text-align: left;
+        text-transform: capitalize;
     }
 }
