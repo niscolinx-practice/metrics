@@ -107,10 +107,20 @@
             }
         }
 
-        &--2{
+        &--2 {
             padding: 5rem 0;
 
-            .cards{
+            .cards {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+                gap: 2rem;
+                row-gap: 4rem;
+            }
+        }
+
+        &--4 {
+            padding: 5rem 0;
+            .cards {
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
                 gap: 2rem;

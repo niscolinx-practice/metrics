@@ -105,6 +105,18 @@ function blog() {
                             title='12 Popup Use Cases To Increase Conversions'
                             description='2. Unless specified otherwise, all Data requested by Metricks is mandatory and failure to provide this Data may make it impossible for Metricks to'
                         />
+                        <Card
+                            src='/'
+                            date='SEPTEMBER 6, 2021 . FEATURED ARTICLE'
+                            title='12 Popup Use Cases To Increase Conversions'
+                            description='2. Unless specified otherwise, all Data requested by Metricks is mandatory and failure to provide this Data may make it impossible for Metricks to'
+                        />
+                        <Card
+                            src='/'
+                            date='SEPTEMBER 6, 2021 . FEATURED ARTICLE'
+                            title='12 Popup Use Cases To Increase Conversions'
+                            description='2. Unless specified otherwise, all Data requested by Metricks is mandatory and failure to provide this Data may make it impossible for Metricks to'
+                        />
                     </div>
                     <button className='blog__main--4-btn'>Load More</button>
                 </div>
