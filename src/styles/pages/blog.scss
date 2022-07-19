@@ -143,12 +143,12 @@
         }
     }
 
-    &__section3 {
+    &__footer {
         position: relative;
         grid-column: 1 / -1;
         margin-bottom: 3rem;
 
-        .section3-1 {
+        .footer-1 {
             position: relative;
             z-index: 2;
             background: #eddbf021;
@@ -197,7 +197,7 @@
             }
         }
 
-        .section3-2 {
+        .footer-2 {
             position: absolute;
             z-index: 1;
             right: 10rem;

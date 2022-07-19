@@ -122,19 +122,19 @@ function blog() {
                     <button className='blog__main--4-btn'>Load More</button>
                 </div>
             </div>
-            <section className='about__section3'>
-                <div className='section3-1'>
-                    <h2 className='section3-1__header'>Got a Question?</h2>
-                    <p className='section3-1__text'>
+            <section className='blog__footer'>
+                <div className='footer-1'>
+                    <h2 className='footer-1__header'>Got a Question?</h2>
+                    <p className='footer-1__text'>
                         See how Metricks can help your business grow with best
                         Affiliate Marketing Tracking Software.
                     </p>
-                    <div className='section3-1__btn'>
+                    <div className='footer-1__btn'>
                         <button>Contact Us</button>
-                        <BsArrowRight className='section3-1__btn--arrow' />
+                        <BsArrowRight className='footer-1__btn--arrow' />
                     </div>
                 </div>
-                <div className='section3-2'></div>
+                <div className='footer-2'></div>
             </section>
         </div>
     )
