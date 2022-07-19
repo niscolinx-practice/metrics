@@ -13,7 +13,7 @@ function Card({src, date, title, description}: CardProps) {
         <div className='card'>{
             
             <Image
-                src={image}
+                src={src}
                 alt=''
                 width={'487px'}
                 height={'322px'}
