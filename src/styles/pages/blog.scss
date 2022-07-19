@@ -81,20 +81,30 @@
         grid-column: 2 / -2;
 
         &--1{
+            display: flex;
+            justify-content: space-between;
 
             .main__searchBox{
                 position: relative;
+                justify-self: start;
+                align-content: center;
+                align-items: center;
+                display: grid;
+                width: 900px;
 
                 input{
                     border-radius: 3rem;
                     padding: 3rem 2rem;
-                    width: 613px;
-                    outline: none;
+                    
+                    border: none;
+                    //border: 1px solid black;
+                    outline: 1px solid black;
                 }
 
                 &--icon{
                     position: absolute;
-                    right: 0;
+                    right: 1rem;
+
                     font-size: 3rem;
                 }
             }
