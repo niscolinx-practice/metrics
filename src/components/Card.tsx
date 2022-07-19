@@ -2,13 +2,13 @@ import Image from 'next/image'
 import React from 'react'
 
 type CardProps = {
-    image: string,
+    src: string,
     date: string,
     title: string,
     description: string
 }
 
-function Card({image, date, title, description}: CardProps) {
+function Card({src, date, title, description}: CardProps) {
     return (
         <div className='card'>{
             

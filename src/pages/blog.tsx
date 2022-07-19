@@ -34,7 +34,7 @@ function blog() {
                 <div className='blog__main--2'>
                     <div className='cards'>
                         <Card
-                            image='/person1.jpeg'
+                            src='/person1.jpeg'
                             date='SEPTEMBER 6, 2021 . FEATURED ARTICLE . AFFILATE'
                             title='12 Popup Use Cases To Increase Conversions'
                             description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -43,7 +43,7 @@ function blog() {
                     justo duo dolores et ea rebum'
                         />
                         <Card
-                            image='/person1.jpeg'
+                            src='/person1.jpeg'
                             date='SEPTEMBER 6, 2021 . FEATURED ARTICLE . AFFILATE'
                             title='12 Popup Use Cases To Increase Conversions'
                             description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -52,7 +52,7 @@ function blog() {
                     justo duo dolores et ea rebum'
                         />
                         <Card
-                            image='/person1.jpeg'
+                            src='/person1.jpeg'
                             date='SEPTEMBER 6, 2021 . FEATURED ARTICLE . AFFILATE'
                             title='12 Popup Use Cases To Increase Conversions'
                             description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -61,7 +61,7 @@ function blog() {
                     justo duo dolores et ea rebum'
                         />
                         <Card
-                            image='/person1.jpeg'
+                            src='/person1.jpeg'
                             date='SEPTEMBER 6, 2021 . FEATURED ARTICLE . AFFILATE'
                             title='12 Popup Use Cases To Increase Conversions'
                             description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -70,7 +70,7 @@ function blog() {
                     justo duo dolores et ea rebum'
                         />
                         <Card
-                            image='/person1.jpeg'
+                            src='/person1.jpeg'
                             date='SEPTEMBER 6, 2021 . FEATURED ARTICLE . AFFILATE'
                             title='12 Popup Use Cases To Increase Conversions'
                             description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -79,7 +79,7 @@ function blog() {
                     justo duo dolores et ea rebum'
                         />
                         <Card
-                            image='/person1.jpeg'
+                            src='/person1.jpeg'
                             date='SEPTEMBER 6, 2021 . FEATURED ARTICLE . AFFILATE'
                             title='12 Popup Use Cases To Increase Conversions'
                             description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
@@ -100,7 +100,7 @@ function blog() {
                 <div className='blog__main--4'>
                     <div className='cards'>
                         <Card
-                            image='/'
+                            src='/'
                             date='SEPTEMBER 6, 2021 . FEATURED ARTICLE'
                             title='12 Popup Use Cases To Increase Conversions'
                             description='2. Unless specified otherwise, all Data requested by Metricks is mandatory and failure to provide this Data may make it impossible for Metricks to'
