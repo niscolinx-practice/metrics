@@ -1,0 +1,122 @@
+.contactUs {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    transition: all .5s;
+
+    &__action {
+        z-index: 5;
+        position: absolute;
+        left: 47%;
+        top: 2rem;
+        width: 104px;
+        height: 102px;
+        padding: 2rem;
+        background: white;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        border-radius: 100%;
+        cursor: pointer;
+
+        &--arrow {
+           
+            border-radius: 100%;
+            display: flex;
+            color: black;
+            font-size: 2rem;
+        }
+    }
+
+    &__left {
+        background: #eddbf021;
+        backdrop-filter: blur(18px);
+    }
+
+    &__right {
+        background: $linear-gradient;
+    }
+
+    &__ellipse {
+        position: absolute;
+        right: 13rem;
+        top: 14rem;
+        width: 212px;
+        height: 218px;
+        border-radius: 100%;
+        background: transparent linear-gradient(177deg, #213f72 0%, #19073b 82%);
+        opacity: 1;
+        z-index: 1;
+    }
+
+    &__form {
+        height: 100%;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        gap: 3rem;
+        position: relative;
+        z-index: 2;
+
+        &--header {
+            font-size: 2.5rem;
+            font-weight: 500;
+            text-align: center;
+            width: 44rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &--content {
+            display: grid;
+            gap: 1rem;
+        }
+
+        &--label {
+            font-size: 1.3rem;
+            font-weight: 300;
+        }
+
+        &--input {
+            padding: 2rem 3rem;
+            border-radius: 1rem;
+            font-size: 1.3rem;
+        }
+
+        &--input::placeholder {
+            color: black;
+            opacity: 0.5;
+            font-size: 1.3rem;
+            font-weight: 400;
+            font-family: $font-Poppins;
+        }
+
+        &--textarea {
+            border-radius: 1rem;
+            padding: 1rem 3rem;
+            font-size: 1.3rem;
+            font-family: $font-Poppins;
+        }
+        &--textarea::placeholder {
+            color: black;
+            opacity: 0.5;
+            font-size: 1.3rem;
+            font-weight: 400;
+            font-family: $font-Poppins;
+        }
+
+        &--btn {
+            background-color: $color-1;
+            text-transform: uppercase;
+            border-radius: 3rem;
+            padding: 2rem 5rem;
+            color: white;
+            justify-self: start;
+            font-size: 1.6rem;
+            border: none;
+            outline: none;
+        }
+    }
+}

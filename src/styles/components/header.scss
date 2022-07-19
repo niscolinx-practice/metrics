@@ -1,6 +1,5 @@
 .header {
     display: flex;
-    //grid-column: center-start / center-end;
     justify-content: space-between;
     align-items: center;
     margin: 0 3rem;
@@ -20,16 +19,24 @@
     &__lists {
         list-style: none;
         display: flex;
+
         &--item {
             margin: 0 1.5rem;
             padding: 1rem 2rem;
             text-transform: uppercase;
             cursor: pointer;
 
+            a:link,
+            a:visited {
+                text-decoration: none;
+                color: white;
+            }
+
             &-active {
                 background-color: $color-1;
                 box-shadow: 0px 0px 10px #09090991;
                 border-radius: 5rem;
+                color: white;
             }
         }
     }
