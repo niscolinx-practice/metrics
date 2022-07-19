@@ -18,7 +18,7 @@
         &--left {
             background: #eddbf021;
             backdrop-filter: blur(16px);
-            grid-column: 1 / 7;
+            grid-column: 1 / 5;
             position: relative;
             z-index: 2;
             height: 389px;
@@ -29,7 +29,7 @@
             position: absolute;
             z-index: 3;
 
-            left: 42rem;
+            left: 42.2rem;
             width: 555px;
             height: 126px;
 
@@ -60,7 +60,7 @@
             position: absolute;
 
             z-index: 1;
-            left: 20rem;
+            left: 18rem;
             top: 5rem;
             width: 15rem;
             height: 20rem;
