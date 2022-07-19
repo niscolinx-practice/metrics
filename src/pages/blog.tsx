@@ -1,6 +1,7 @@
 import React from 'react'
 import CardText from '../components/CardText'
 import { IoIosSearch } from 'react-icons/io'
+import Card from '../components/Card'
 
 function blog() {
     return (
