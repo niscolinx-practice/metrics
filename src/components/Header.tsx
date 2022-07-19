@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 
-const Header = ({isComingSoon}: {isComingSoon: boolean}) => {
+const Header = ({isComingSoon, isBlog}: {isComingSoon: boolean, isBlog: boolean}) => {
     return (
         <header
             className='header'
