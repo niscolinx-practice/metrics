@@ -41,6 +41,19 @@ function blog() {
                         <Card />
                     </div>
                 </div>
+
+                <div className='blog__main--3'>
+                    <CardText
+                        title='Latest From The Blog'
+                        text='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam'
+                    />
+                </div>
+
+                <div className="blog__main--4">
+                    <div className="cards">
+                        
+                    </div>
+                </div>
             </div>
         </div>
     )
