@@ -246,7 +246,8 @@
             backdrop-filter: blur(16px);
 
             display: grid;
-            justify-content: center;
+            justify-content: start;
+            align-content: center;
 
             &__header{
                 letter-spacing: 0.9px;
@@ -262,12 +263,12 @@
             &__btn{
 
                 button{
-                    font-size: 1.2rem;
+                    font-size: 1.3rem;
                     font-weight: 500;
                     color: #FF00F7;
                     background-color: transparent;
                     border: none;
-                    
+                    outline: none;
                 }
 
                 span{
