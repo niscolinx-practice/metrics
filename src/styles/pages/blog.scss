@@ -146,13 +146,14 @@
     &__footer {
         position: relative;
         grid-column: 1 / -1;
-         background: linear-gradient(180deg, #213f72 0%, #19073b 100%);
-        
+        display: grid;
+        background: linear-gradient(180deg, #213f72 0%, #19073b 100%);
+        grid-template-columns: 1fr 1fr;
 
         .footer-1 {
             position: relative;
             z-index: 1;
-            width: 1000px;
+            width: 1920px;
             height: 463px;
             background: linear-gradient(180deg, #213f72 0%, #19073b 100%);
             display: grid;
@@ -160,6 +161,7 @@
             padding-left: 8rem;
             gap: 2rem;
             align-content: center;
+            background: white;
 
             &__header {
                 letter-spacing: 0.9px;
@@ -197,14 +199,14 @@
         }
 
         .footer-2 {
-            position: absolute;
+            position: relative;
             z-index: 3;
             backdrop-filter: blur(16px);
             width: 557px;
             height: 318px;
             right: 5rem;
-            top: 5rem;
-            //background: red;
+            bottom: 0;
+            background: red;
         }
 
         .footer-3 {
