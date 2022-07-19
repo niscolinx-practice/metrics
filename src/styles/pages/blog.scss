@@ -120,11 +120,20 @@
 
         &--4 {
             padding: 5rem 0;
+
             .cards {
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
                 gap: 2rem;
                 row-gap: 4rem;
+            }
+
+            &-btn{
+                background-color: #7C0FD5;
+                border-radius: 3rem;
+                padding: 2rem 4rem;
+                font-size: 1.2rem;
+                trans
             }
         }
     }
