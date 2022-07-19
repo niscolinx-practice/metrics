@@ -1,31 +1,23 @@
 import Link from 'next/link'
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import { BsYoutube } from 'react-icons/bs'
 import { AiFillFacebook, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai'
 import { FaTwitterSquare } from 'react-icons/fa'
-
 
 type HeaderProps = {
     isComingSoon: boolean
     isBlog: boolean
 }
 
-function Footer({isComingSoon, isBlog}: HeaderProps) {
-
-
+function Footer({ isComingSoon, isBlog }: HeaderProps) {
     useEffect(() => {
-        const addFooterStyle =  window.document.querySelector('.footer')
+        const addFooterStyle = window.document.querySelector('.footer')
 
-        if(isBlog){
-
+        if (isBlog) {
             addFooterStyle?.classList.add('footer__isBlog')
-        }
-        else{
-
+        } else {
             addFooterStyle?.classList.remove('footer__isBlog')
         }
-
-
     }, [isBlog])
 
     return (
