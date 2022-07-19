@@ -1,15 +1,12 @@
 import Link from 'next/link'
 import React from 'react'
 
-
-
-const Header = ({
-    isComingSoon,
-    isBlog,
-}: {
+type HeaderProps = {
     isComingSoon: boolean
     isBlog: boolean
-}) => {
+}
+
+const Header = ({ isComingSoon, isBlog }: HeaderProps) => {
     const useStyle: React.CSSProperties = {
         display: isComingSoon ? 'none' : 'flex',
         background: isBlog ? 'white' : '',
