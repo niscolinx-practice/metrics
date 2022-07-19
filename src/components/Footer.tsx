@@ -4,7 +4,16 @@ import { BsYoutube } from 'react-icons/bs'
 import { AiFillFacebook, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai'
 import { FaTwitterSquare } from 'react-icons/fa'
 
-function Footer({isComingSoon}: {isComingSoon: boolean}) {
+
+type HeaderProps = {
+    isComingSoon: boolean
+    isBlog: boolean
+}
+
+function Footer({isComingSoon, isBlog}: HeaderProps) {
+
+
+    
     return (
         <footer
             className='footer'
