@@ -79,5 +79,18 @@
         color: black;
         display: grid;
         grid-column: 2 / -2;
+
+        &--1{
+
+            .main{
+
+                &__searchBox{
+
+                    width: 613px;
+                }
+
+                
+            }
+        }
     }
 }

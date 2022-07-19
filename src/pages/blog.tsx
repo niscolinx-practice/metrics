@@ -24,9 +24,9 @@ function blog() {
                         title='Latest From The Blog'
                         text='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam'
                     />
-                    <div className='main__search'>
+                    <div className='main__searchBox'>
                         <input type='text' />
-                        <IoSearchOutline />
+                        <IoSearchOutline className='main__icon'/>
                     </div>
                 </div>
             </div>
