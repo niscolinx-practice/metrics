@@ -16,20 +16,23 @@ const Header = ({ isComingSoon, isBlog }: HeaderProps) => {
         ? {
               color: 'black',
           }
-        : {}
+        : { color: 'white' }
 
     const useLinkStyles__active: React.CSSProperties = isBlog
         ? {
               background: 'white',
               color: 'black',
           }
-        : {}
+        : { background: '', color: '' }
 
     return (
         <header className='header' style={useStyle}>
             <div className='header__logo'>
                 <Link href='/'>
-                    <img src='logo-white.png' alt='' />
+                    <img
+                        src={`${isBlog ? 'logo-color.svg' : 'logo-white.png'}`}
+                        alt=''
+                    />
                 </Link>
             </div>
 
