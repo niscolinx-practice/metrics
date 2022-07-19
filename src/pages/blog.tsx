@@ -17,13 +17,14 @@ function blog() {
                 <div className='blog__banner--right'></div>
             </div>
 
-            <div className="blog__main">
-
-                <div className="blog__main--1">
-                    <SubCard/>
-                    <input type="text" />
+            <div className='blog__main'>
+                <div className='blog__main--1'>
+                    <SubCard
+                        title='Latest From The Blog'
+                        text='Latest From The Blog'
+                    />
+                    <input type='text' />
                 </div>
-
             </div>
         </div>
     )
