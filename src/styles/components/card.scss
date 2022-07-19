@@ -25,6 +25,7 @@
     display: grid;
     justify-content: center;
     gap: 1rem;
+    max-width: 538px;
     
     img {
         object-fit: cover;
@@ -34,6 +35,7 @@
     &__details{
         display: grid;
         gap: 1rem;
+        padding: 1rem;
     }
 
 
