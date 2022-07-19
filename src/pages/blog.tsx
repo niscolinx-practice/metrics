@@ -1,6 +1,6 @@
 import React from 'react'
 import CardText from '../components/CardText'
-
+import {IoSearchOutline} from 'react-icons/io'
 
 function blog() {
     return (
@@ -24,7 +24,10 @@ function blog() {
                         title='Latest From The Blog'
                         text='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam'
                     />
-                    <input type='text' />
+                    <div className='main__search'>
+                        <input type='text' />
+                        <IoSearchOutline />
+                    </div>
                 </div>
             </div>
         </div>
