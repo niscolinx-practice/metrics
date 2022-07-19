@@ -1,6 +1,11 @@
 .blog {
     display: grid;
     grid-column: 1 / -1;
+    background-color: white;
+    grid-template-columns: repeat(
+        12,
+        [col-start] minmax(min-content, 14rem) [col-end]
+    );
 
     &__banner {
         position: relative;
@@ -66,12 +71,10 @@
             height: 20rem;
             background: linear-gradient(180deg, #7f1e7b 0%, #1d0040 100%);
         }
-       
     }
 
-    &__main{
+    &__main {
         padding: 10rem 0;
-        background-color: white;
         color: black;
         display: grid;
     }
