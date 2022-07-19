@@ -25,11 +25,17 @@
     display: grid;
     justify-content: center;
     gap: 1rem;
-
+    
     img {
         object-fit: cover;
         object-position: center;
     }
+    
+    &__details{
+        display: grid;
+        gap: 1rem;
+    }
+
 
     &__date {
         font-size: 0.8rem;
@@ -53,8 +59,7 @@
         position: relative;
         display: flex;
         align-items: center;
-        padding: 3rem 0;
-        
+
         &--dash {
             position: absolute;
             left: 0;
