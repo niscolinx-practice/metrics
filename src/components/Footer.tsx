@@ -17,7 +17,7 @@ function Footer({isComingSoon, isBlog}: HeaderProps) {
 
     return (
         <footer
-            className='footer footer__isBlog'
+            className='footer'
             style={isComingSoon ? { display: 'none' } : { display: 'grid' }}
         >
             <ul className='footer__links'>
