@@ -10,13 +10,15 @@ type CardProps = {
 
 function Card({image, date, title, description}: CardProps) {
     return (
-        <div className='card'>
+        <div className='card'>{
+            
             <Image
                 src={image}
                 alt=''
                 width={'487px'}
                 height={'322px'}
             />
+        }
             <div className='card__details'>
                 <p className='card__date'>
                     {date}

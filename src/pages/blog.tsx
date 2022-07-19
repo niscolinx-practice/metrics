@@ -100,13 +100,13 @@ function blog() {
                 <div className='blog__main--4'>
                     <div className='cards'>
                         <Card
-                            image=''
+                            image='/'
                             date='SEPTEMBER 6, 2021 . FEATURED ARTICLE'
                             title='12 Popup Use Cases To Increase Conversions'
-                            description='2. Unless specified otherwise, all Data requested by Metricks is mandatory and failure to provide this Data may make it impossible for Metricks to provide its services. In cases where Metricks specifically states that some Data is not mandatory, Users are free not to communicate this Data without consequences to the availability or the functioning of the Service..'
+                            description='2. Unless specified otherwise, all Data requested by Metricks is mandatory and failure to provide this Data may make it impossible for Metricks to'
                         />
                     </div>
-                    <button>Load More</button>
+                    <button className='blog__main--4-btn'>Load More</button>
                 </div>
             </div>
         </div>
