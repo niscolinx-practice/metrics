@@ -1,10 +1,16 @@
 .blog {
+display: grid;
+    grid-column: 1 / -1;
+    
+
     &__banner {
         position: relative;
-        width: 1920px;
         height: 390px;
         background: transparent
             linear-gradient(180deg, #210045 0%, #0c0123 100%);
+        display: grid;
+        grid-column:  1 / -1;
+        justify-content: start;
 
         &--left {
             background: #eddbf021;
@@ -12,6 +18,9 @@
             grid-column: 1 / 9;
             position: relative;
             z-index: 2;
+            background-color: red;
+            width: 641px;
+height: 389px;
         }
 
         &--text {
@@ -38,14 +47,14 @@
             }
         }
         &--left-sub {
-             position: absolute;
-                grid-column: 6 / 9;
-                z-index: 1;
-                right: 10rem;
-                top: 10rem;
-                width: 30rem;
-                height: 40rem;
-                background: linear-gradient(180deg, #7f1e7b 0%, #1d0040 100%);
+            position: absolute;
+
+            z-index: 1;
+            right: 10rem;
+            top: 10rem;
+            width: 30rem;
+            height: 40rem;
+            background: linear-gradient(180deg, #7f1e7b 0%, #1d0040 100%);
         }
         &--right {
         }
