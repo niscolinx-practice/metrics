@@ -1,30 +1,27 @@
-.blog{
+.blog {
+    &__banner {
+        width: 1920px;
+        height: 390px;
+        background: transparent
+            linear-gradient(180deg, #210045 0%, #0c0123 100%);
 
-    &__banner{
-        &--left{
-            
+        &--left {
         }
 
-        &--text{
-            .text__subTitle{
-
-                .span-1{
-
+        &--text {
+            .text__subTitle {
+                .span-1 {
                 }
 
-                .span-2{
-                    
+                .span-2 {
                 }
             }
-            .text__title{
-
+            .text__title {
             }
         }
-        &--left-sub{
-            
+        &--left-sub {
         }
-        &--right{
-
+        &--right {
         }
     }
 }
