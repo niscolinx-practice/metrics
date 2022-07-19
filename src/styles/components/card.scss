@@ -49,8 +49,12 @@
     }
 
     &__btn{
+        position: relative;
+        
         &--dash{
-
+            position: absolute;
+            height: 2px;
+            width: 5rem;
         }
 
         &--main{
