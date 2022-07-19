@@ -120,6 +120,7 @@
 
         &--4 {
             padding: 5rem 0;
+            display: grid;
 
             .cards {
                 display: grid;
@@ -135,6 +136,9 @@
                 font-size: 1.2rem;
                 text-transform: uppercase;
                 color: white;
+                justify-self: center;
+                display: grid;
+                margin-top: 5rem;
             }
         }
     }
