@@ -47,4 +47,14 @@
         font-size: 1.1rem;
         line-height: 3rem;
     }
+
+    &__btn{
+        &--dash{
+
+        }
+
+        &--main{
+            letter-spacing: .54px;
+        }
+    }
 }
