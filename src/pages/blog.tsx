@@ -15,6 +15,14 @@ function blog() {
                 <div className='blog__banner--left-sub'></div>
                 <div className='blog__banner--right'></div>
             </div>
+
+            <div className="blog__main">
+
+                <div className="blog__main--1">
+                    
+                </div>
+
+            </div>
         </div>
     )
 }
