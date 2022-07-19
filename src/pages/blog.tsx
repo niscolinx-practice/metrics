@@ -42,6 +42,51 @@ function blog() {
                     aliquyam erat, sed diam voluptua. At vero eos et accusam et
                     justo duo dolores et ea rebum'
                         />
+                        <Card
+                            image='/person1.jpeg'
+                            date='SEPTEMBER 6, 2021 . FEATURED ARTICLE . AFFILATE'
+                            title='12 Popup Use Cases To Increase Conversions'
+                            description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo duo dolores et ea rebum'
+                        />
+                        <Card
+                            image='/person1.jpeg'
+                            date='SEPTEMBER 6, 2021 . FEATURED ARTICLE . AFFILATE'
+                            title='12 Popup Use Cases To Increase Conversions'
+                            description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo duo dolores et ea rebum'
+                        />
+                        <Card
+                            image='/person1.jpeg'
+                            date='SEPTEMBER 6, 2021 . FEATURED ARTICLE . AFFILATE'
+                            title='12 Popup Use Cases To Increase Conversions'
+                            description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo duo dolores et ea rebum'
+                        />
+                        <Card
+                            image='/person1.jpeg'
+                            date='SEPTEMBER 6, 2021 . FEATURED ARTICLE . AFFILATE'
+                            title='12 Popup Use Cases To Increase Conversions'
+                            description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo duo dolores et ea rebum'
+                        />
+                        <Card
+                            image='/person1.jpeg'
+                            date='SEPTEMBER 6, 2021 . FEATURED ARTICLE . AFFILATE'
+                            title='12 Popup Use Cases To Increase Conversions'
+                            description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo duo dolores et ea rebum'
+                        />
                         
                     </div>
                 </div>
@@ -54,7 +99,17 @@ function blog() {
                 </div>
 
                 <div className='blog__main--4'>
-                    <div className='cards'></div>
+                    <div className='cards'>
+                        <Card
+                            image=''
+                            date='SEPTEMBER 6, 2021 . FEATURED ARTICLE'
+                            title='12 Popup Use Cases To Increase Conversions'
+                            description='Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                    diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                    justo duo d'
+                    />
+                    </div>
                 </div>
             </div>
         </div>
