@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import React from 'react'
+import React, {useEffect} from 'react'
 import { BsYoutube } from 'react-icons/bs'
 import { AiFillFacebook, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai'
 import { FaTwitterSquare } from 'react-icons/fa'
@@ -13,7 +13,12 @@ type HeaderProps = {
 function Footer({isComingSoon, isBlog}: HeaderProps) {
 
 
+    useEffect(() => {
+        const addFooterStyle =  window.document.querySelector('.footer')
 
+        console.log({addFooterStyle})
+
+    }, [isBlog])
 
     return (
         <footer
