@@ -147,8 +147,9 @@
         position: relative;
         grid-column: 1 / -1;
         display: grid;
-        background: linear-gradient(180deg, #213f72 0%, #19073b 100%);
-        grid-template-columns: 1fr 1fr;
+
+         background: linear-gradient(180deg, #213f72 0%, #19073b 100%);
+        
 
         .footer-1 {
             position: relative;
@@ -161,7 +162,6 @@
             padding-left: 8rem;
             gap: 2rem;
             align-content: center;
-            background: white;
 
             &__header {
                 letter-spacing: 0.9px;
@@ -199,23 +199,23 @@
         }
 
         .footer-2 {
-            position: relative;
+            position: absolute;
             z-index: 3;
             backdrop-filter: blur(16px);
             width: 557px;
             height: 318px;
             right: 5rem;
-            bottom: 0;
-            background: red;
+            top: 5rem;
+            background: transparent linear-gradient(180deg, #7f1e7c3c 0%, #19073B 100%) 0% 0% no-repeat padding-box;
         }
 
         .footer-3 {
             position: absolute;
             z-index: 2;
-            right: 6rem;
-            top: 6rem;
-            width: 22rem;
-            height: 12rem;
+            right: 8rem;
+            top: 8rem;
+            width: 17rem;
+            height: 10rem;
             background: linear-gradient(180deg, #923f1f 0%, #19073b 100%);
         }
     }
