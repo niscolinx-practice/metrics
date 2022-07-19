@@ -31,13 +31,15 @@ function blog() {
                     </div>
                 </div>
 
-                <div className="blog__main--2">
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
-                    <Card/>
+                <div className='blog__main--2'>
+                    <div className='cards'>
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                        <Card />
+                    </div>
                 </div>
             </div>
         </div>
