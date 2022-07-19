@@ -1,6 +1,6 @@
 import React from 'react'
 import CardText from '../components/CardText'
-import {IoSearchOutline} from 'react-icons/io'
+import { IoIosSearch } from 'react-icons/io'
 
 function blog() {
     return (
@@ -26,7 +26,7 @@ function blog() {
                     />
                     <div className='main__searchBox'>
                         <input type='text' />
-                        <IoSearchOutline className='main__icon'/>
+                        <IoIosSearch className='main__icon' />
                     </div>
                 </div>
             </div>
