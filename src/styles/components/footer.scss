@@ -59,13 +59,17 @@
 }
 
 .footer__isBlog {
-    &>*,
-    &>a{
-
+    & > * {
         color: black !important;
     }
 
     background-color: white;
 
-    
+    svg {
+        color: black;
+    }
+
+    a {
+        color: black !important;
+    }
 }
